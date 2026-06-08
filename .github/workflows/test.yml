@@ -1,0 +1,10 @@
+name: Validation Workflow
+
+on: [push]
+
+jobs:
+  valider-projet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher le message de validation
+        run: echo "Validation du projet supervision reseau"
